@@ -1,6 +1,7 @@
 import { myVariable } from './test.js';
-import '../assets/style.css';
-import './Components/button/button.js';
+import '../assets/css/normalize.css';
+import '../assets/css/font.css';
+import '../assets/css/style.css';
 
 console.log("hello, world!");
 
