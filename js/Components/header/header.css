@@ -1,0 +1,24 @@
+.header-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 64px 0 64px;
+}
+
+.header-block {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-subtext {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-text);
+}
+
+.header-text {
+    font-size: 16px;
+    font-weight: 600;
+}
