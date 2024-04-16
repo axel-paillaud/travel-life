@@ -2,9 +2,9 @@
     font-size: 128px;
     font-family: Roboto Condensed;
     margin: 0;
+    position: relative;
     text-align: center;
     font-weight: bold;
-    position: absolute;
-    top: -72px;
-    left: 120px;
+    top: 76px;
+    text-wrap: nowrap;
 }
