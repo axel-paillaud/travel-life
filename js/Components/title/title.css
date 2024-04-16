@@ -7,4 +7,19 @@
     font-weight: bold;
     top: 76px;
     text-wrap: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (width <= 768px) {
+    .title {
+        font-size: 96px;
+        top: 57px;
+    }
+}
+
+@media screen and (width <= 640px) {
+    .title {
+        font-size: 72px;
+        top: 43px;
+    } 
 }
