@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding: 32px 64px 0 64px;
+    white-space: nowrap;
 }
 
 .header-block {
@@ -20,4 +21,33 @@
 .header-text {
     font-size: 16px;
     font-weight: 600;
+}
+
+@media screen and (width <= 640px) {
+    .header-container {
+        flex-wrap: wrap;
+        padding: 24px 36px 0 36px;
+    }
+
+    .header-block {
+        flex-basis: 50%;
+    }
+
+    .hb-1 {
+        margin-bottom: 28px;
+    }
+
+    .hb-2 {
+        align-items: end;
+        align-items: flex-end;
+        white-space: wrap;
+        text-align: right;
+        margin-bottom: 28px;
+    }
+
+    .hb-4 {
+        align-items: end;
+        align-items: flex-end;
+        text-align: right;
+    }
 }
