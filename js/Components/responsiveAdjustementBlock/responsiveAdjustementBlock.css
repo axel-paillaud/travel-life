@@ -1,0 +1,11 @@
+.responsive-adjustement-block {
+    display: none;
+}
+
+@media screen and (width <= 640px) {
+    .responsive-adjustement-block {
+        display: block;
+        background-color: var(--main);
+        height: 128px;
+    }
+}

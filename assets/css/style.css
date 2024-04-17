@@ -9,8 +9,8 @@ html, body, main {
 body {
     font-family: 'Work Sans';
     font-weight: 400;
-    color: var(--main-text);
-    background-color: var(--backgrounds);
+    color: var(--main);
+    background-color: var(--background);
 }
 
 .main {
