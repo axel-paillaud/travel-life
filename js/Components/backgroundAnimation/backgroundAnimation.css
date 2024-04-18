@@ -1,0 +1,15 @@
+.bg-animation-wrapper {
+    position: absolute;
+    inset: 0;
+    background-color: white;
+    z-index: 30;
+    transform-origin: left;
+    animation: bganimation 0.9s cubic-bezier(.86,0,.07,1);
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes bganimation {
+    from { transform: scaleX(1) };
+    to { transform: scaleX(0) };
+}
