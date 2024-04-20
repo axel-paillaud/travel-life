@@ -1,4 +1,5 @@
 .title {
+    color: var(--main);
     font-size: 128px;
     font-family: Roboto Condensed;
     margin: 0;

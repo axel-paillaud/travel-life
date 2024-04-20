@@ -1,7 +1,7 @@
 .bg-animation-wrapper {
     position: absolute;
     inset: 0;
-    background-color: white;
+    background-color: var(--main);
     z-index: 30;
     transform-origin: left;
     animation: bganimation 0.9s cubic-bezier(.86,0,.07,1);
