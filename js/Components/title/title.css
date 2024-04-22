@@ -12,6 +12,19 @@
     z-index: 10;
 }
 
+.title-lottie {
+    position: relative;
+    top: 76px;
+    z-index: 10;
+    height: 145px;
+    width: 80%;
+}
+
+.lottie-player-container {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (width <= 768px) {
     .title {
         font-size: 96px;
