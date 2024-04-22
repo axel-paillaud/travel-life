@@ -5,5 +5,7 @@ import './Components/cover/cover.js';
 import './Components/responsiveAdjustementBlock/responsiveAdjustementBlock.js';
 import './Components/backgroundAnimation/backgroundAnimation.js';
 
+import "@lottiefiles/lottie-player";
+
 console.log("hello, world!");
 
